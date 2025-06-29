@@ -1,0 +1,98 @@
+/* O fundo da página deve ter uma cor suave.*/
+body { background-color:rgb(175, 226, 175);}
+
+
+/*O título (<h1>) deve ter uma cor diferente e estar centralizado*/
+h1 {
+    color: rgb(2, 68, 2);
+    text-align: center;
+    text-decoration: underline;
+}
+/*O parágrafo (<p>) deve ter um tamanho de fonte maior e ser justificado.*/
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+/*A lista (<ul>) deve ter um espaçamento maior entre os itens.*/
+ul {
+    list-style-type: square;
+    margin: 10px;
+    padding: 5px;
+}
+.li1 {padding: 10px; background-color: #a8cca4}
+.li2 {padding: 10px; background-color: #93b290;}
+.li3 {padding: 10px; background-color: #7e997b}
+
+
+/*A imagem (<img>)deve ter bordas arredondadas e um tamanho adequado.*/
+.foto1 {
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border-radius: 8px;
+    width: 50%
+}
+div { padding: 5px;}
+
+
+/* A tabela(<table>) deve estar estilizada.*/
+table {background-color: #a8cca4;}
+
+
+.coluna1 {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: Helvetica;
+}
+.coluna2 {border: 2px solid black; }
+
+
+#foto2 {
+    border-radius: 8px;
+    width: 90%;
+    margin: 10px;
+}
+
+
+#foto3 {
+    border-radius: 8px;
+    width: 90%;
+    margin: 10px;
+}
+
+
+#foto4 {
+    border-radius: 8px;
+    width: 90%;
+    margin: 10px;
+}
+
+
+/*O link (<a>) deve mudar de cor quando o usuário passar o mouse sobre ele.*/
+.link2 {
+    border: 2px solid black;
+    position: absolute;
+    padding: 15px 25px;
+    margin-top: 25px;
+    text-align: center;
+    background-color: #a8cca4;
+    display: inline-block;
+}
+a:link {color:black}
+a:visited{color:darkmagenta}
+a:hover {color:rgb(107, 2, 228)}
+a:active{color: chartreuse}
+
+.botao1 {
+    position: absolute;
+    padding: 15px 25px;
+    margin-top: 25px;
+    text-align: center;
+    background-color: #a8cca4;
+    display: inline-block;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 150px;
+}
